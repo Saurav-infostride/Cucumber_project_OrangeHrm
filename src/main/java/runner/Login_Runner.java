@@ -10,11 +10,12 @@ import org.junit.runner.RunWith;
         glue = {"StepDefinitions"},
         monochrome = true,
         //strict = true,
+        //tags={"@SmokeTest"},
         plugin = {"pretty",
                 "json:Report/Cucumber.json",
                 "junit:Report/XMLReport.xml",
-                "html:Report/cucumberReport.html"},
-        tags={"@SmokeTest"}
+                "html:Report/cucumberReport.html"}
+
                 )
 
 public class Login_Runner {

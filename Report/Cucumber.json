@@ -3,7 +3,332 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 2,
+        "name": "Check Add user functionality with required detail",
+        "description": "",
+        "id": "checking-the-add-user-functionality-in-the-application;check-add-user-functionality-with-required-detail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4637263300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Login page",
+            "match": {
+              "location": "Login.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2705084100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is logging successfully and goto homepage page",
+            "match": {
+              "location": "Add_User.user_is_logging_successfully_and_goto_homepage_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1023862600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is click on Admin button",
+            "match": {
+              "location": "Add_User.user_is_click_on_Admin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 604725600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is click on Add button",
+            "match": {
+              "location": "Add_User.user_is_click_on_Add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94973400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects the User Role",
+            "match": {
+              "location": "Add_User.user_selects_the_User_Role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119780400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects the Employee Name",
+            "match": {
+              "location": "Add_User.user_selects_the_Employee_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103758200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters username in the username text field",
+            "match": {
+              "location": "Add_User.user_enters_username_in_the_username_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47055800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects the Status",
+            "match": {
+              "location": "Add_User.user_selects_the_Status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99987000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters Password in the password text field",
+            "match": {
+              "location": "Add_User.user_enters_Password_in_the_password_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90471600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters Confirm Password in the confirm password text field",
+            "match": {
+              "location": "Add_User.user_enters_Confirm_Password_in_the_confirm_password_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66508800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on the SAVE button",
+            "match": {
+              "location": "Add_User.user_clicks_on_the_SAVE_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...web/index.php/admin/[saveSystemUser]\u003e but was:\u003c...web/index.php/admin/[viewSystemUsers]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat StepDefinitions.Add_User.user_successfully_added_the_user(Add_User.java:87)\r\n\tat ✽.user successfully added the user(C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Add_User.feature:14)\r\n",
+              "duration": 6081300,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user successfully added the user",
+            "match": {
+              "location": "Add_User.user_successfully_added_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking the Add user functionality in the application",
+    "description": "",
+    "id": "checking-the-add-user-functionality-in-the-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Add_User.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Check the search add user functionality with required detail",
+        "description": "",
+        "id": "checking-the-search-add-user-functionality-in-the-application;check-the-search-add-user-functionality-with-required-detail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5470825500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Login page",
+            "match": {
+              "location": "Login.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2088160900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is logging successfully and goto homepage page",
+            "match": {
+              "location": "Add_User.user_is_logging_successfully_and_goto_homepage_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2238151500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is click on Admin button",
+            "match": {
+              "location": "Add_User.user_is_click_on_Admin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters Username in the Username text field for search",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user selects the user as per the enter name",
+            "match": {
+              "location": "Delete_User.user_selects_the_user_as_per_the_enter_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on the Delete button",
+            "match": {
+              "location": "Delete_User.user_clicks_on_the_Delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is successfully Deleted",
+            "match": {
+              "location": "Delete_User.user_is_successfully_Deleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking the search add user functionality in the application",
+    "description": "",
+    "id": "checking-the-search-add-user-functionality-in-the-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Delete_User.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Checking the ForgetPassword functionality click on the link",
+        "description": "",
+        "id": "check-the-forgetpassword-functionality-link-of-the-orangehrm;checking-the-forgetpassword-functionality-click-on-the-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8009555800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on Login page",
+            "match": {
+              "location": "Login.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77883600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on the forget password link",
+            "match": {
+              "location": "Forget_Password.user_clicks_on_the_forget_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186400900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is redirecting to the ForgetPassword page",
+            "match": {
+              "location": "Forget_Password.user_is_redirecting_to_the_ForgetPassword_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check the ForgetPassword functionality link of the OrangeHrm",
+    "description": "",
+    "id": "check-the-forgetpassword-functionality-link-of-the-orangehrm",
+    "keyword": "Feature",
+    "uri": "C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Forget_Password.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
         "name": "Checking Login functionality with the valid login credentials",
         "description": "",
         "id": "checking-login-functionality-of-the-orange-hrm;checking-login-functionality-with-the-valid-login-credentials",
@@ -12,76 +337,63 @@
         "steps": [
           {
             "result": {
-              "duration": 7598227700,
+              "duration": 3844149000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user is on the Login page",
+            "line": 3,
+            "name": "user is on Login page",
             "match": {
-              "location": "TagScenario.user_is_on_the_Login_page()"
+              "location": "Login.user_is_on_Login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 152350000,
+              "duration": 82278600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters username in the username textfield",
+            "match": {
+              "location": "Login.user_enters_username_in_the_username_textfield()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88487800,
               "status": "passed"
             },
             "line": 5,
-            "name": "user enters username and password in respective textfields",
+            "name": "user enters password in the password textfield",
             "match": {
-              "location": "TagScenario.user_enters_username_and_password_in_respective_textfields(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "password"
-                ]
-              },
-              {
-                "cells": [
-                  "ad",
-                  "admin"
-                ]
-              },
-              {
-                "cells": [
-                  "Admin",
-                  "admin123"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1623334700,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on the demo OrangeHRM Login button",
-            "match": {
-              "location": "TagScenario.user_clicks_on_the_demo_OrangeHRM_Login_button()"
+              "location": "Login.user_enters_password_in_the_password_textfield()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 164186700,
+              "duration": 1927979500,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user is on the demo OrangeHRM Homepage",
+            "line": 6,
+            "name": "user clicks on the Login button",
             "match": {
-              "location": "TagScenario.user_is_on_the_demo_OrangeHRM_Homepage()"
+              "location": "Login.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102934100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "Login.user_is_on_Homepage()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
           }
         ]
       }
@@ -90,7 +402,7 @@
     "description": "",
     "id": "checking-login-functionality-of-the-orange-hrm",
     "keyword": "Feature",
-    "uri": "C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/TagScenario.feature",
+    "uri": "C:/Users/SauravSharma/IdeaProjects/Cucumber_Project/src/main/java/featurefiles/Login.feature",
     "tags": []
   }
 ]

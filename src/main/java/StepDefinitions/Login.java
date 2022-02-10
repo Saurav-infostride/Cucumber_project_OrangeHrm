@@ -20,7 +20,7 @@ public class Login {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
         driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/");
+        driver.get("http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login");
     }
 
     @When("^user enters username in the username textfield$")
@@ -32,7 +32,7 @@ public class Login {
     @When("^user enters password in the password textfield$")
     public void user_enters_password_in_the_password_textfield()
     {
-        driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+        driver.findElement(By.id("txtPassword")).sendKeys("Qedge123!@#");
     }
 
     @When("^user clicks on the Login button$")
